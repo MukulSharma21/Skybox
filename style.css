@@ -1,0 +1,671 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+/*=========================================================
+sECTION -ONE STYLES
+==========================================================*/
+
+header {
+    background: #D1D8DE;
+    padding: 20px 0px 50px;
+    //margin-bottom: 60px;
+}
+
+.head-sy {
+    background: #D1D8DE;
+}
+
+.heading .logo {
+    text-indent: -10000px;
+    height: 40px;
+    background: url(img/home_03.png) no-repeat center left;
+    width: 150px;
+}
+
+.heading .contact-bar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 4%;
+}
+
+.heading .contact-bar ul li {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.connect,
+.facebook-logo,
+.twitter-logo,
+.wheel,
+.pinterest {
+    padding-left: 36px;
+    text-indent: -10000px;
+    height: 33px;
+}
+
+.connect {
+    background: url(img/home_05.png) no-repeat;
+}
+
+.facebook-logo {
+    background: url(img/home_06.png) no-repeat;
+}
+
+.twitter-logo {
+    background: url(img/home_07.png) no-repeat;
+}
+
+.wheel {
+    background: url(img/home_07.png) no-repeat;
+}
+
+.pinterest {
+    background: url(img/home_08.png) no-repeat;
+}
+
+#lead-banner {
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4 ease;
+}
+
+#lead-banner img {
+    width: 100%;
+}
+
+header .menu {
+    margin-top: 20px;
+    background: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+header .menu li {
+    float: left;
+    width: 14%;
+    padding-left: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-right: 2px solid #BABABA;
+    text-align: center;
+}
+
+.blue {
+    color: #6094B4 !important;
+}
+
+header .menu li:nth-child(5) {
+    border-right: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*===================================================
+STYLES FOR SECTION ONE
+=================================================*/
+
+#section-one {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 60px 10px;
+}
+
+#section-one .our-work h1 {
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 2px dashed #eee;
+    font-weight: bold;
+    color: #505050;
+    font-size: 1.4rem;
+}
+
+#section-one .our-work ul {
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+#section-one .our-work ul li {
+    width: 32%;
+    float: left;
+    margin-top: 20px;
+}
+
+#section-one .our-work ul li:nth-chile(2, 4) {
+    margin: 20px 1%;
+}
+
+#section-one .our-work ul li h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.web-design {
+    background: url("img/home_13.png") no-repeat left center;
+}
+
+.graphic-design {
+    background: url("img/home_16.png") no-repeat left center;
+}
+
+.motion-graphic {
+    background: url("img/home_19.png") no-repeat left center;
+}
+
+.photography {
+    background: url("img/home_25.png") no-repeat left center;
+}
+
+.phone-games {
+    background: url("img/home_26.png") no-repeat left center;
+}
+
+.eg {
+    background: url("img/home_29.png") no-repeat left center;
+}
+
+#section-one .our-work ul li p {
+    line-height: 1.6rem;
+    text-transform: capitalize;
+    width: 80%;
+    margin-top: 5px 10%;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+
+
+/*====================================================
+    SECTION TWO STYLES
+===================================================*/
+
+#section-two {
+    background: #F0F0F0;
+    padding: 50px 0;
+    border-bottom: 1px solid gray;
+}
+
+#section-two .wrapper {
+    position: relative;
+}
+
+#section-two #grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.one {
+    background: #BABABA;
+    grid-row: 1/span 1;
+    grid-column: 1/span 1;
+}
+
+.two {
+    background: #BABABA;
+    grid-row: 1/span 1;
+    grid-column: 2/span 1;
+}
+
+.three {
+    background: #BABABA;
+    grid-row: 1/span 1;
+    grid-column: 3/span 1;
+}
+
+.four {
+    background: #BABABA;
+    grid-row: 1/span 1;
+    grid-column: 4/span 1;
+}
+
+.five {
+    background: #BABABA;
+    grid-row: 1/span 1;
+    grid-column: 5/span 1;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    border: 8px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+#section-two h1,
+#section-three .blog h2,
+.where-you-can-find-us h1,
+#section-four .content-of-company h2 {
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: #434343;
+}
+
+.angle {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 3%;
+    width: 10%;
+    text-align: center;
+}
+
+.angle span {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    text-align: center;
+    display: block;
+    float: left;
+    padding-top: 2px;
+    margin-left: 3px;
+    border: 3px solid gray;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*====================================================
+    SECTION TWO STYLES
+===================================================*/
+
+#section-three {
+    padding: 30px 0;
+}
+
+#section-three .recent-work ul {
+    list-style: none;
+    width: 100%;
+}
+
+#section-three .recent-work ul li {
+    width: 32%;
+    margin: 15px 0;
+    float: left;
+}
+
+#section-three .recent-work ul li:nth-child(odd) {
+    margin: 15px 1%;
+}
+
+#section-three .recent-work ul li img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#section-three .recent-work ul li p {
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 10px 2%;
+    width: 96%;
+}
+
+#section-three .recent-work .title {
+    position: relative;
+}
+
+#section-three .recent-work .title .design {
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    font-size: 18px;
+    line-height: 0;
+}
+
+#section-three .recent-work .title .design span {
+    margin-top: 10px;
+    line-height: 1.8rem;
+    font-size: 14px;
+    width: 100%;
+}
+
+#section-three .recent-work li h2 {
+    float: right;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    width: 86%;
+    font-size: 1rem;
+}
+
+.contact-us {
+    margin-top: 60px;
+}
+
+.contact-us input[type="checkbox"] {
+    display: none;
+    cursor: pointer;
+}
+
+.tweet-social label,
+.fb-social label {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    background: #F5F5F5;
+    position: relative;
+    color: indigo;
+    cursor: pointer;
+}
+
+.Tweet-open,
+.facebook-open {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.Tweet-open,
+.facebook-open {
+    background: #F5F5F5;
+}
+
+.Tweet-open li,
+.facebook-open li {
+    border-bottom: 1px dashed black;
+    width: 80% !important;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.tweet-social input:checked ~ .Tweet-open {
+    height: 100%;
+    margin-top: 10px;
+}
+
+.tweet-social input:checked ~ .facebook-open {
+    height: 0;
+}
+
+.fb-social input:checked ~ .facebook-open {
+    height: 100%;
+    margin-top: 10px;
+}
+
+.fb-social input:checked ~ .Tweet-open {
+    height: 0;
+}
+
+#facebook {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.contact-us ul li {
+    width: 42%;
+    float: left;
+    margin: 30px 4%;
+    list-style: none;
+}
+
+.testimonials blockquote {
+    line-height: 1rem;
+    font-size: 1rem;
+    color: #616161;
+}
+
+/*====================================================
+    SECTION FOUR STYLES
+===================================================*/
+
+#section-four {
+    width: 100%;
+    padding: 30px 0;
+}
+
+#section-four ul li {
+    list-style: none;
+    width: 44%;
+    margin: 0 3%;
+    float: left;
+}
+
+.content-of-company ul {
+    background: #9B9B9B;
+    padding: 30px 10px;
+}
+
+.content-of-company ul li {
+    width: 80% !important;
+    padding: 15px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.content-of-company ul li span {
+    color: #CAE9FC;
+}
+
+.insecpt {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.insecpt .paragraph-1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.insecpt .paragraph-2 {
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+
+.insecpt img {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+FOOTER
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+footer {
+    background-color: #3F3F3F;
+    padding: 30px 0;
+}
+
+footer ul{
+    float: left;
+    width: 25%;
+}
+
+footer ul li{
+    width: 80%;
+    margin: 10px 10%;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #9F9F9F;
+    font-size: 1rem;
+}
+
+footer ul li h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+footer ul li input,textarea{
+    background: #2f2f2f;
+    margin:5px 0;
+    border: none;
+}
+
+footer ul li input{
+    padding: 5px;
+    color: #eee;
+    outline: none;
+}
+
+footer ul li textarea{
+    padding: 5px;
+    color: #eee;
+    outline: none;
+    box-sizing: border-box;
+    max-height: 200px;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+footer ul li input[type="submit"]{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #fff;
+    background: #708EA2;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid #708EA2;
+    margin-left: 0;
+    margin-right: 40%;
+}
+
+.copyright{
+    width: 100%;
+    clear: both;
+    margin: 30px 0;
+    border-top: 2px solid #b5b5b5;
+    padding: 20px 0 0;
+    color: #dddddd;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/*==================================================== 
+CLEAR FIXES 
+====================================================*/
+
+.heading .contact-bar ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.head-sy::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.heading .contact-bar ul li::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header .menu ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#section-one .our-work ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#section-two #grid::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#section-three .recent-work ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.contact-us::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#section-four ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+footer::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+footer ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
